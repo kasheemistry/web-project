@@ -20,11 +20,15 @@ p {
   font-family: Helvetica;
 }
 ul {
-  color:blue;
+  color:gray;
   font-size: 16px;
   font-family: Helvetica;
 }
-
+ol {
+  color:black;
+  font-size: 18px;
+  font-family: Helvetica
+}
 #moneycloud
 {    margin-top: -20px;
     height: 200px;
