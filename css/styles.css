@@ -1,8 +1,43 @@
+h1 {
+  color:orange;
+  text-align: center;
+  font-size: 56px;
+  font-family: Helvetica;
+}
 h2 {
   color: red;
+  text-align: center;
+  font-size: 40px;
+  font-family: Helvetica;
+}
+h3  {
+  color: black;
+  font-size: 32;
+  font-family: Helvetica;
 }
 p {
   color:blue;
   font-size: 16px;
   font-family: Helvetica;
+}
+ul {
+  color:black;
+  font-size: 16px;
+  font-family: Helvetica;
+}
+ol {
+  color:black;
+  font-size: 18px;
+  font-family: Helvetica
+}
+
+#moneycloud
+{    margin-top: -20px;
+    height: 200px;
+}
+#beans {
+    display: inline-block;
+}
+#veg {
+   vertical-align:baseline;
 }
