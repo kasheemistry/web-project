@@ -36,7 +36,8 @@ ol {
     height: 200px;
 }
 #beans {
-    display: inline-block;
+  height: 200px;
+  width: 200px;
 }
 #veg {
    vertical-align:baseline;
@@ -44,4 +45,5 @@ ol {
 
 #boo {
   color: blue;
+
 }
