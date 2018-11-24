@@ -36,7 +36,8 @@ ol {
     height: 200px;
 }
 #beans {
-    display: inline-block;
+  height: 200px;
+  width: 200px;
 }
 #veg {
    vertical-align:baseline;
@@ -46,6 +47,3 @@ ol {
   color: blue;
 
 }
-<div class="alert alert-warning" role="alert">
-  A simple warning alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
-</div>
