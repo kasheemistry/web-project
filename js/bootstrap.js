@@ -2373,7 +2373,5 @@ if (typeof jQuery === 'undefined') {
       Plugin.call($spy, data)
     })
   })
-  <div class="alert alert-warning" role="alert">
-    A simple warning alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
-  </div>
+
 }(jQuery);
