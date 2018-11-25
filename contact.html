@@ -40,25 +40,39 @@
     <br>
     <br>
 
-    <div class="row">
-      <div class="col-sm-6">
-        <img class= "img-square" src='images/food.jpg' width="730" height="440">
-      </div>
+    <div class="container">
+      <form action="action_page.php">
 
-      <div class="col-sm-6">
-        <img class= "img-square" src='images/peace.jpg' width="700" height="440" hspace="5">
-      </div>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="email">Email address</label>
+        <input type="text" id="email" name="lastname" placeholder="Please enter your email address..">
+
+
+
+        <label for="query">How can we help?</label>
+        <select id="question" name="question">
+          <option value="advice">Receive some advice</option>
+          <option value="suggestion">Send us your suggestion</option>
+          <option value="queries">General query</option>
+        </select>
+
+        <label for="subject">Message</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+
+      </form>
     </div>
 
-    <div class="row">
-      <div class="col-sm-6">
-        <img class= "img-square" src='images/pig.jpg' width="730" height="440">
-      </div>
 
-      <div class="col-sm-6">
-        <img class= "img-square" src='images/revision.jpg' width="700" height="440" hspace="5">
-      </div>
-    </div>
+
+
+
 
 </body>
 </html>
