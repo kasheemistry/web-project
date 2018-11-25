@@ -2413,6 +2413,28 @@ if (typeof jQuery === 'undefined') {
   </div>
 
 
+  var myTimer;
+  function clock() {
+      myTimer = setInterval(myClock, 1000);
+      var c = 3600; //Initially set to 1 hour. Set this to whatever you desire
+
+
+      function myClock() {
+          --c
+          var seconds = c % 60; // Seconds that cannot be written in minutes
+          var minutes = (c - seconds) / 60; // Gives the seconds that COULD be given in minutes
+          var minutesLeft = minutes % 60; // Minutes that cannot be written in hours
+          var hours = (minutes - minutesLeft) / 60;
+          // Now in hours, minutes and seconds, you have the time you need.
+          console.log(hours + ":" + minutes + ":" + seconds)
+          if (c == 0) {
+              clearInterval(myTimer);
+          }
+      }
+  }
+
+  clock();
+
 =======
 >>>>>>> 6bdc33a08bfc7ebf0b65d551ba2d106cab7d775b
 
