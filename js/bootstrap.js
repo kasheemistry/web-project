@@ -2373,44 +2373,6 @@ if (typeof jQuery === 'undefined') {
       Plugin.call($spy, data)
     })
   })
-<<<<<<< HEAD
-  <div class="alert alert-warning" role="alert">
-    A simple warning alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
-  </div>
-
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="beans.jpg" alt="Los Angeles">
-      </div>
-
-      <div class="item">
-        <img src="pasta.jpg" alt="Chicago">
-      </div>
-
-      <div class="item">
-        <img src="protein.jpg" alt="New York">
-      </div>
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
 
 
   var myTimer;
@@ -2426,16 +2388,14 @@ if (typeof jQuery === 'undefined') {
           var minutesLeft = minutes % 60; // Minutes that cannot be written in hours
           var hours = (minutes - minutesLeft) / 60;
           // Now in hours, minutes and seconds, you have the time you need.
+          document.getElementById("demo").innerHTML = hours + ":" + minutesLeft + ":" + seconds;
           console.log(hours + ":" + minutes + ":" + seconds)
           if (c == 0) {
               clearInterval(myTimer);
+              document.getElementById("demo").innerHTML = "00:00:00"
           }
       }
   }
 
   clock();
-
-=======
->>>>>>> 6bdc33a08bfc7ebf0b65d551ba2d106cab7d775b
-
 }(jQuery);
